@@ -17,7 +17,7 @@ class Song
   end
   
   def save
-    self
+    @@all.self
   end
 
 end
