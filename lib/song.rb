@@ -19,5 +19,9 @@ class Song
   def save
     @@all << self
   end
+  
+  def create
+    @@all << create
+  end
 
 end
