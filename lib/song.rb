@@ -24,13 +24,13 @@ class Song
     artist.add_song(self)
   end
   
-   def artist
-    @artist
+   def genre
+    @genre
   end
   
-  def artist=(artist)
-    @artist = artist
-    artist.add_song(self)
+  def genre=(genre)
+    @genre = genre
+    genre.add_song(self)
   end
   
   def self.all
