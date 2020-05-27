@@ -14,11 +14,11 @@ class Song
   
   def artist
     @artist
-    artist.add_song(self)
   end
   
   def artist=(artist)
     @artist = artist
+    artist.add_song(self)
   end
   
   def self.all
