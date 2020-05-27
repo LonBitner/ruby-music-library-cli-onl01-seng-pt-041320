@@ -1,6 +1,6 @@
 class Song
   
-  attr_accessor :name, :genre, :musicimporter
+  attr_accessor :name, :genre, :musicimporter, :musiclibrarycontroller
   extend Concerns::Findable
   
   @@all = []
