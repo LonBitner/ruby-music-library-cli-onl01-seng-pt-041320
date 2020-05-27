@@ -6,7 +6,7 @@ class Genre
   
   def initialize(name, songs = nil)
     @name = name
-    @songs = song
+    @songs = songs
     save
   end
   
