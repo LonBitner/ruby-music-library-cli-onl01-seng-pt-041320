@@ -12,6 +12,12 @@ class Song
     save
   end
   
+  def artist
+    @artist
+  end
+  
+  def artist
+  
   def self.all
     @@all
   end
