@@ -21,8 +21,8 @@ class Genre
     @@all << self
   end
   
-  def self.create(artist)
-    self.new(artist)
+  def self.create(genre)
+    self.new(genre)
   end
 
 end
